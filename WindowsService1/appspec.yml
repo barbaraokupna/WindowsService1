@@ -4,7 +4,7 @@ files:
   - source: \
     destination: C:\windowsservice
 hooks:
-  AfterInstall:
+  BeforeInstall:
     - location: deployscripts\afterinstall.bat
   ApplicationStart:
     - location: deployscripts\windowsservicestart.bat
