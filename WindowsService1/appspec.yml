@@ -3,3 +3,8 @@ os: windows
 files:
   - source: \
     destination: C:\windowsservice
+hooks:
+  AfterInstall:
+    - location: deployscripts\afterinstall.bat
+  ApplicationStart:
+    - location: deployscripts\windowsservicestart.bat
