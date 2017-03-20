@@ -1,1 +1,1 @@
-net stop WindowsService1.exe
+net stop WindowsService3
