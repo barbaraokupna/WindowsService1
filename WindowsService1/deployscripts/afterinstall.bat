@@ -1,0 +1,1 @@
+net stop WindowsService1.exe
